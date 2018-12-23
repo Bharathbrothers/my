@@ -61,3 +61,13 @@ paginate_path: /page:num/
 # Other
 markdown: kramdown
 highlighter: rouge
+
+authors:
+  sal:
+    name: Bharath Sathuri
+    display_name: Stark
+    gravatar: sathuribharathkumar
+    email: sathuribharathbrothers1234@gmail.com
+    web: https://about.me/bharathsathuri
+    twitter: https://twitter.com/bharathsathuri
+    description: "Author of this blog."
