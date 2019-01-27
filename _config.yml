@@ -21,8 +21,8 @@ linkedin_username: bharath-kumar-goud
 name: Stark's Blog
 description: >- # this means to ignore newlines until "baseurl:"
   A blog on various topics,tutorials and resources.
-baseurl: "/mydemo" # the subpath of your site, e.g. /blog
-url: "https://bharathbrothers.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://bharathbrothers.github.io/mydemo" # the base hostname & protocol for your site, e.g. http://example.com
 keyword: "Stark Sources, Blog, Bharath Sathuri, Resources, StarkSources"
 git_repo: myblog
 
