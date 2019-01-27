@@ -33,3 +33,5 @@ gem 'jekyll-seo-tag'
 gem 'jekyll-paginate'
 
 gem 'jekyll-archives'
+
+gem 'jekyll-admin'
