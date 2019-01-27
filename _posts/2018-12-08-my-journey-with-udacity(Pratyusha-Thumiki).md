@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "My Journey with Udacity(Pratyusha Thumiki)"
+date:   2018-12-13 18:02:44 +0530
+categories: jekyll update
+image: https://coderseye.com/wp-content/uploads/Udacity-Courses.jpg?x59762
+---
+
 ### In this , I am going to share one of my friend's experience with Udacity Scholarship Courses.
 
 ## MY JOURNEY WITH UDACITY

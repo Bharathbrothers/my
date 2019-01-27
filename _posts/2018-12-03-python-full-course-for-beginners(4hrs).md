@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Python Course"
+date:   2018-12-13 18:02:44 +0530
+categories: jekyll update
+author: sal
+image: https://cdn-images-1.medium.com/max/2000/1*SSutxOFoBUaUmgeNWAPeBA.jpeg
+---
 This course will give you a full introduction into all of the core concepts in python.
 Follow along with the videos and you'll be a python programmer in no time!
 

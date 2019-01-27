@@ -5,18 +5,25 @@ title: Archive
 
 <!-- Begin List Posts
 ================================================== -->
+ <script async src="{{site.baseurl}}/assets/js/theme.js"></script>
+
 <section class="recent-posts">
 <div class="section-title">
     <h2>Archive of posts with <span>{{ page.type }} '{{ page.title }}'</span></h2>
 </div>
-<div class="row listrecent">
-
-{% for post in page.posts %}
-
-    {% include postbox.html %}
-
-{% endfor %}
-
-</div>
+<div class="article-post">
+    {{content}}
+    </div>
+    
+    {% if page.comments == true %}
+    
+    <div id="comments" class="row mb-5">
+        <div class="col-md-8">              
+            {% include disqus.html %}                
+        </div>
+    </div>
+    
+    {% endif %}
 </section>
+
 

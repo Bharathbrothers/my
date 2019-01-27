@@ -1,3 +1,12 @@
+---
+layout: post
+title:  "Useful Links"
+author: sal
+categories: [Useful,Resources]
+image: https://www.hesleygroup.co.uk/files/myimages/useful-links-image.jpg
+featured : true
+---
+
 [Competitive Programming on Commonlounge](https://www.commonlounge.com/community/862d2091c64e447cacde77d4c76a9ac3?ref=link-user-share-9e241ca5d5654b618e1dc1daee955e76)
 
 [Competitive Programming References by Hackerearth](https://www.hackerearth.com/getstarted-competitive-programming/)

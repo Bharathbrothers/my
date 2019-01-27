@@ -13,18 +13,20 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: My Blog
+email: sathuribharathbrothers1234@gmail.com
+twitter_username: bharathsathuri
+github_username: Bharathbrothers
+linkedin_username: bharath-kumar-goud
+name: Stark's Blog
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A blog on various topics,tutorials and resources.
 baseurl: "/myblog" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://starksources.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+keyword: "Stark Sources, Blog, Bharath Sathuri, Resources, StarkSources"
+git_repo: myblog
 
-meta_description: "Jekyll, Medium styled, free for bloggers."
+meta_description: "Technical Blog, Bharath Sathuri, Android, Stark Sources, Resources and related Articles"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 
@@ -47,14 +49,16 @@ favicon: 'assets/images/logo.png'
 plugins: 
   - jekyll-paginate
   - jekyll-archives
+  - jekyll-seo-tag
+  - jekyll-admin
     
 # Archives
 jekyll-archives:
   enabled:
     - categories
-  layout: archive
+  layout: default
   permalinks:
-    category: '/category/:name/'
+    category: /category:name/
     
 # Pagination 
 paginate: 6
@@ -63,3 +67,20 @@ paginate_path: /page:num/
 # Other
 markdown: kramdown
 highlighter: rouge
+
+color-browser: "#16AEF9"
+apple-status-bar-style: "blue"
+
+authors:
+  sal:
+    name: Bharath Sathuri
+    display_name: Stark
+    gravatar: a89ce732ab8775d28484176552b04116
+    email: sathuribharathbrothers1234@gmail.com
+    web: https://about.me/bharathsathuri
+    twitter: https://twitter.com/bharathsathuri
+    description: "Bharath Sathuri,A Github-Jekyll Lover. I believe that Technology can change Anything."
+
+defaults:
+    values:
+      related: true

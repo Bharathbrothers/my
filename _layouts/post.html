@@ -7,12 +7,23 @@ post_class: post-template
 
 <!-- Begin Article
 ================================================== -->
+ <script async src="{{site.baseurl}}/assets/js/theme.js"></script>
+ 
+<style>
+	.sharethis-inline-share-buttons{
+		width: 80%;
+	}
+	
+</style>
+
 <div class="container">
 	<div class="row">
 
 		<!-- Post Share -->
 		<div class="col-md-2 pl-0">            
            {% include share.html %}  
+	
+
 		</div>
 		
 
@@ -39,7 +50,20 @@ post_class: post-template
 				<h1 class="posttitle">{{ page.title }}</h1> 
                 
 			</div>
+<span class="read-time" title="Estimated read time">
+  <svg id="i-clock" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" 
+  stroke-linejoin="round" stroke-width="2"><circle cx="16" cy="16" r="14" /><path d="M16 8 L16 16 20 20" /></svg>       
 
+  {% assign words = content | number_of_words %}
+  {% if words < 60 %}
+    1 min read.
+  {% else %}
+    {{ words | divided_by:80 }} mins read.
+  {% endif %}
+</span>
+<style>
+    svg#i-clock {vertical-align: middle;}
+</style>
 			<!-- Post Featured Image -->
 			{% if page.image %}<img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}">{% endif %}
 			<!-- End Featured Image -->
@@ -65,13 +89,16 @@ post_class: post-template
                     {% assign sortedCategories = page.categories | sort %}
                     {% for category in sortedCategories %}
                     <li>
-                     <a href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category }}</a>
+                     <a href="{{ site.baseurl }}/categories.html#{{ category | slugify }}" class="post-tag">{{ category }}</a>
                     </li>
                     {% endfor %}
 				</ul>
 			</div>
 			<!-- End Categories -->
-            
+            {% include adsense.html %}
+
+		<div class="sharethis-inline-share-buttons"></div>
+
             <!-- Prev/Next -->
             <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
             {% if page.previous.url %}
@@ -86,13 +113,16 @@ post_class: post-template
 
 		</div>
 		<!-- End Post -->
+            {% include adsense.html %}
 
 	</div>
 </div>
 <!-- End Article
 ================================================== -->
 
-  
+              {% include adsense.html %}
+	      {% include adsense.html %}
+
 
 <!-- Begin Comments
 ================================================== -->

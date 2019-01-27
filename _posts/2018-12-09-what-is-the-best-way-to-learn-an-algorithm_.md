@@ -1,6 +1,12 @@
+---
 layout: post
-hidden: true
+title:  "Best way to learn an Algorithm"
+author: sal
+categories: [ Useful, tutorial ]
+image: https://blog.pandorafms.org/wp-content/uploads/2018/05/what-is-an-algorithm-featured.png
 featured: true
+tags : algorithm
+---
 
 #### the best way to learn an algorithm is to visualize it.
 
@@ -46,7 +52,11 @@ So far, over 3.5 million people in over 180 countries have used Python Tutor to 
 >In this you can paste your own code and visualize it. 
 It supports 6 programming languages.
 
+Here is a frame displaying how it works.!! enable to run scripts to see it.
+
 <iframe width="600" height="400" frameborder="0" src="http://pythontutor.com/iframe-embed.html#code=int%20main%28%29%20%7B%0A%20%20int%20a%3D10,b%3D20%3B%0A%20%20int%20c%3B%0A%20%20c%3Da%2Bb%3B%0A%20%20printf%28%22%25d%22,c%29%3B%0A%20%20return%200%3B%0A%7D&codeDivHeight=400&codeDivWidth=350&curInstr=4&origin=opt-frontend.js&py=c&rawInputLstJSON=%5B%5D"> </iframe>
+
+
 
 
 #### Additional Resources: [Teach Yourself CS](https://teachyourselfcs.com/)

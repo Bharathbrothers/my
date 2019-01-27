@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "GATE CS FREE COURSE"
+author: sal
+categories: [ Useful, GATE ]
+tags : gate
+image: https://gs-post-images.grdp.co/2018/8/free-online-course-free-online-course-img1535361432156-13.jpg-rs-high-webp.jpg
+---
 
 ![GATE](/blog/img/gatecs.jpg "GATE")
 

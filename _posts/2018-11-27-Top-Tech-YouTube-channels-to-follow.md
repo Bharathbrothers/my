@@ -1,3 +1,12 @@
+---
+layout: post
+title: "Youtube Channels to follow"
+author: sal
+categories: [ Useful, Youtube]
+tags: [youtube, channels, tech]
+image: https://i0.wp.com/freedigitalstartup.com/wp-content/uploads/2017/07/Top-10-best-YouTube-Tech-Channels-to-Subscribe.jpg?fit=780%2C460&ssl=1
+featured : true
+---
 ### Tech Channels
 [Hitesh Chodhary](https://www.youtube.com/user/hiteshitube)
 >Hello Technology Lovers,

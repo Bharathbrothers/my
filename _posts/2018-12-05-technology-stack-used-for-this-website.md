@@ -1,4 +1,14 @@
- [![LOGO](https://starksources.github.io/assets/img/Stark Sources.png)](https://starksources.github.io/)
+---
+layout: post
+title: "Tech Stack used for this website"
+date: 2018-12-13 18:02:44 +0530
+categories: [update, Tech-Stack]
+tags: tech-stack
+author: sal
+image: https://img.stackshare.io/introducing-stackshare.png
+---
+
+[![LOGO](https://starksources.github.io/assets/img/Stark Sources.png)](https://starksources.github.io/)
  
  [![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/stark-sources/stark-sources)
   
